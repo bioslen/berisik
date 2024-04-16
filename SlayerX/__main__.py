@@ -40,7 +40,7 @@ async def init():
     await userbot.start()
     await Slayer.start()
     try:
-        await Slayer.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
+        await Slayer.stream_call("https://telegra.ph/file/c6a560ee49384b469448d.mp4")
     except NoActiveGroupCall:
         LOGGER("SlayerX").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
